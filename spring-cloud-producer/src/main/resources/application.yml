@@ -1,0 +1,9 @@
+server:
+  port: 1005
+spring:
+  application:
+    name: producer-service
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1003/eureka/,http://peer2:1004/eureka/
