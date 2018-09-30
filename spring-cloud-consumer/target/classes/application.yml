@@ -1,9 +1,0 @@
-spring:
-  application:
-    name: ribbon-consumer
-server:
-  port: 1006
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://peer1:1003/eureka/
